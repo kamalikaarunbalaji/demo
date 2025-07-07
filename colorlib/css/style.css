@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merienda:wght@300..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-family: "Merienda", cursive;
+}
+
+.box {
+    text-align: center;
+    padding:40px;
+    background: white;
+}
+
+.detail-box {
+    padding: 30px;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right, #6c5fff, #7bcafe);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    font-family: "Cinzel", serif;
+}
+
+.email-details {
+    font-family: Poppins-Regular;
+    margin-bottom: 20px;
+}
+
+.password-details {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 12px;
+    width: 70%;
+    padding: 10px;
+    background-image: linear-gradient(to right, #39b7fd, #9d40ff);
+    text-transform: uppercase;
+    color: white;
+    font-family: "Gentium Plus", serif;
+}
+
+.account-container {
+    padding-top: 80px;
+}
+
+@media only screen and(max-width:425px){
+    .box{
+       margin:40px;
+    }
+}
